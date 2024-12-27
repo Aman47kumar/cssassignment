@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* General Styles */
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#hero .btn {
+  display: inline-block;
+  background: #fff;
+  color: #007BFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Features Section */
+#features {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  margin: 1rem;
+}
+
+.feature i {
+  font-size: 3rem;
+  color: #007BFF;
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  margin-bottom: 2rem;
+}
+
+#contact form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact .btn {
+  background: #fff;
+  color: #007BFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#contact .btn:hover {
+  background: #f4f4f4;
+}
+
+  </style>
+
+</head>
+<body>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <h1>Welcome to Our Landing Page</h1>
+      <p>Discover amazing features and get in touch with us today!</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="feature">
+        <i class="fas fa-bolt"></i>
+        <h3>Fast Performance</h3>
+        <p>Experience blazing-fast load times and seamless navigation.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-lock"></i>
+        <h3>Secure</h3>
+        <p>Your data is protected with top-notch security measures.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-thumbs-up"></i>
+        <h3>User Friendly</h3>
+        <p>Our design ensures ease of use for everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have any questions? Reach out to us!</p>
+      <form action="#">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
